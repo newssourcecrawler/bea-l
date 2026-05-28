@@ -1,0 +1,22 @@
+# Rust
+/target/
+
+# VSCode extension dependencies/build
+/vscode/node_modules/
+/vscode/out/
+/vscode/*.vsix
+
+# Local/package output
+/dist/
+/*.zip
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
