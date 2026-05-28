@@ -1,0 +1,17 @@
+
+
+[package]
+name = "bea-l"
+version = "2026.1.0"
+edition = "2021"
+description = "Local workbench diagnostic evidence packet tool for AI-assisted development."
+license = "MIT"
+publish = false
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[[bin]]
+name = "bea-l"
+path = "src/bin/bea-l.rs"
